@@ -1,4 +1,4 @@
-package io.github.livenne.common.model.dto;
+package io.github.livenne.common.model.dto.order;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,11 +10,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderSaveDTO {
-    private Long cost;
+    private Double cost;
     private Long userId;
     private Long createTime;
     private String addr;
     private String goodsMap;
     private String payMethod;
-    private Boolean status;
+    private String status;
 }

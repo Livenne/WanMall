@@ -12,15 +12,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity("orders")
-public class Orders {
+public class Order {
     @Id
     private Long id;
-    private Long cost;
-    private Long count;
+    private Double cost;
     private Long userId;
     private Long createTime;
     private String addr;
+    private String goodsMap;
     private String payMethod;
-    private String goodsArray;
-    private Boolean status;
+    private String status;
 }

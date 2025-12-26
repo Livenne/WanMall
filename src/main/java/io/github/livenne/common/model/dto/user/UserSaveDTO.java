@@ -1,4 +1,4 @@
-package io.github.livenne.common.model.dto;
+package io.github.livenne.common.model.dto.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,7 +14,6 @@ public class UserSaveDTO {
     private Long score;
     private String email;
     private String avatar;
-    private String defAddr;
     private String username;
     private String nickname;
     private String password;

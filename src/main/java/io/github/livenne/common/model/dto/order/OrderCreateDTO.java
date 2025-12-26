@@ -1,4 +1,4 @@
-package io.github.livenne.common.model.dto;
+package io.github.livenne.common.model.dto.order;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,7 +12,6 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderCreateDTO {
-    private Long createTime;
     private String addr;
     private String payMethod;
     private Map<Long,Long> goodsMap;

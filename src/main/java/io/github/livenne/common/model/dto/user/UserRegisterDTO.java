@@ -1,4 +1,4 @@
-package io.github.livenne.common.model.dto;
+package io.github.livenne.common.model.dto.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

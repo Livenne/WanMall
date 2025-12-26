@@ -1,4 +1,4 @@
-package io.github.livenne.common.model.dto;
+package io.github.livenne.common.model.dto.order;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
